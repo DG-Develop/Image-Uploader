@@ -1,0 +1,87 @@
+.ImageCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: var(--border-card);
+}
+
+.ImageCard__Header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5em 0 1.5em 0;
+}
+
+.ImageCard__Header--title{
+    margin: 0;
+    font-weight: 500;
+    font-size: 1.2em;
+    color: #4F4F4F;
+    padding-bottom: 0.5rem;
+}
+
+.ImageCard__Header--description{
+    font-weight: 500;
+    font-size: 0.7em;
+    color: #828282;
+    padding-top: 0.5rem;
+}
+
+.ImageCard__Container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 2em;
+    border: 1px dashed #97BEF4;
+    border-radius: var(--border-card);
+    padding: 2.5em 4.5em;
+    background-color: #F6F8FB;
+}
+
+.ImageCard__Container--img{
+    padding-bottom: 1em;
+}
+
+.ImageCard__Container--drop{
+    display: none;
+}
+
+.ImageCard__Container--description{
+    font-weight: 500;
+    font-size: 0.8em;
+    color: #BDBDBD;
+    padding-top: 1rem;
+}
+
+.ImageCard__Footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:1em 0 2.5em 0;
+}
+
+.ImageCard__Footer--text{
+    font-weight: 500;
+    font-size: 0.8em;
+    text-align: center;
+    color: #BDBDBD;
+    padding-bottom: 0.7rem;
+}
+
+.ImageCard__Footer--btn{
+    margin-top: 0.7rem;
+    background-color: #2F80ED;
+    border-radius: 0.5rem;
+    font-family: var(--font-btn);
+    font-weight: 500;
+    font-size: 0.8em;
+    text-align: center;
+    color: white;
+    padding: 0.5rem 1rem;
+    outline: none;
+    cursor: pointer;
+    border: none ;
+}

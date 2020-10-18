@@ -1,0 +1,73 @@
+.SuccessCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: var(--border-card);
+}
+
+.SuccessCard__Header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5em 0 1.5em;
+}
+
+.SuccessCard__Header--icon{
+    width: 35px;
+    height: 35px;
+    filter: invert(46%) sepia(19%) saturate(1757%) hue-rotate(93deg) brightness(96%) contrast(79%);
+    margin-bottom: 0.4em;
+}
+
+.SuccessCard__Header--description{
+    font-weight: 500;
+    font-size: 1.2em;
+    color: #4F4F4F;
+    padding-top: 0.4rem;
+}
+
+.SuccessCard__Container{
+    padding: 0 2em;
+}
+
+.SuccessCard__Container--img{
+    width: 340px;
+    height: 225px;
+    border-radius: var(--border-card);
+    object-fit: cover;
+}
+
+.SuccessCard__Footer{
+    width: 100%;
+    margin: 1.5em 0 2em;
+    position: relative;
+}
+
+.SuccessCard__Footer--link{
+    width: 80%;
+    background: #F6F8FB;
+    border: 1px solid #E0E0E0;
+    border-radius: 0.5em;
+    padding: 0.6em 0.5em 0.6em 1em;
+    margin: 0 2em;
+}
+
+.SuccessCard__Footer--btn{
+    position: absolute;
+    top: 10%;
+    right: 9%;
+    background-color: #2F80ED;
+    border-radius: 0.5rem;
+    font-family: var(--font-btn);
+    font-weight: 500;
+    font-size: 0.5em;
+    text-align: center;
+    color: white;
+    padding: 0.5rem 1rem;
+    outline: none;
+    cursor: pointer;
+    border: none ;
+}
